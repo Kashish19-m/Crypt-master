@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/infoframe">
+
+
+
+    <TextView
+        android:id="@+id/entrytitle"
+        android:layout_width="310dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:textColor="@color/activityBackground"
+        android:textSize="25sp" />
+
+    <FrameLayout
+        android:id="@+id/entrylayout"
+        android:layout_width="368dp"
+        android:layout_height="374dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:focusable="true"
+        android:longClickable="true">
+
+        <TextView
+            android:id="@+id/entrytext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:longClickable="true"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textColor="@color/activityBackground"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/entrykey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/entrylayout"
+        android:layout_marginBottom="90dp"
+        android:text=""
+        android:textColor="@color/activityBackground"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/entrycip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/entrylayout"
+        android:layout_marginBottom="60dp"
+        android:text=""
+        android:textSize="17sp"
+        android:textColor="@color/activityBackground" />
+
+    <TextView
+        android:id="@+id/entrytime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/entrylayout"
+        android:layout_marginBottom="30dp"
+        android:text=""
+        android:textSize="17sp"
+        android:textColor="@color/activityBackground" />
+
+    <ImageButton
+        android:id="@+id/deletebutton"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/entrylayout"
+        android:layout_alignTop="@+id/entrytime"
+        android:background="@drawable/delete_icon"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/entrydec"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/entrylayout"
+        android:layout_alignTop="@+id/entrycip"
+        android:background="@drawable/rbutton"
+        android:text="@string/decstart"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/entryenc"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/entrylayout"
+        android:layout_alignTop="@+id/entrykey"
+        android:background="@drawable/rbutton"
+        android:text="@string/encstart"
+        android:textSize="12sp" />
+
+
+
+</RelativeLayout>

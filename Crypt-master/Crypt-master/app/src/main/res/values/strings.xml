@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Crypt</string>
+    <string name="action_settings">Settings</string>
+    <string name="chooseenc">Select a cipher</string>
+    <string name="encnone">Select a cipher</string>
+    <string name="enccaesar">Caesar cipher</string>
+    <string name="encvig">Vigenere cipher</string>
+    <string name="encaes">AES</string>
+    <string name="encblow">Blowfish</string>
+    <string name="texttoenc">Text to encrypt</string>
+    <string name="enctext">Encrypted text</string>
+    <string name="keytext">Encryption key. Leave blank for a randomized one.</string>
+    <string name="encstart">Encrypt</string>
+    <string name="keytextdc">Decryption key.</string>
+    <string name="decstart">Decrypt</string>
+    <string name="choosedec">Select preferred decryption method</string>
+    <string name="wronglength">"Please enter exactly 16 symbols"</string>
+    <string name="nocipher">"Please select a cipher"</string>
+    <string name="source">Source: Wikipedia</string>
+    <string name="caesarinfo">"Caesar cipher, also known as the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence. The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system. As with all single-alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially no communication security.</string>
+    <string name="caesarurl">https://en.wikipedia.org/wiki/Caesar_cipher</string>
+    <string name="viginfo">The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers based on the letters of a keyword. It is a form of polyalphabetic substitution. Though the cipher is easy to understand and implement, for three centuries it resisted all attempts to break it; this earned it the description le chiffre indéchiffrable (French for \'the indecipherable cipher\'). Friedrich Kasiski was the first to publish a general method of deciphering a Vigenère cipher in 1863. The Vigenère cipher was originally described by Giovan Battista Bellaso in his 1553 book La cifra del. Sig. Giovan Battista Bellaso; however, the scheme was later misattributed to Blaise de Vigenère (1523 – 1596) in the 19th century, and thus acquired its present name.</string>
+    <string name="vigurl">https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher</string>
+    <string name="aesinfo">The Advanced Encryption Standard (AES), also known by its original name Rijndael, is a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001. AES is a subset of the Rijndael cipher developed by two Belgian cryptographers, Vincent Rijmen and Joan Daemen, who submitted a proposal to NIST during the AES selection process. Rijndael is a family of ciphers with different key and block sizes. AES has been adopted by the U.S. government and is now used worldwide. It supersedes the Data Encryption Standard (DES), which was published in 1977. The algorithm described by AES is a symmetric-key algorithm, meaning the same key is used for both encrypting and decrypting the data.</string>
+    <string name="aesurl">https://en.wikipedia.org/wiki/Advanced_Encryption_Standard</string>
+    <string name="bfinfo">Blowfish is a symmetric-key block cipher, designed in 1993 by Bruce Schneier and included in a large number of cipher suites and encryption products. Blowfish provides a good encryption rate in software and no effective cryptanalysis of it has been found to date. Schneier designed Blowfish as a general-purpose algorithm, intended as an alternative to the aging DES and free of the problems and constraints associated with other algorithms. At the time Blowfish was released, many other designs were proprietary, encumbered by patents or were commercial or government secrets. Schneier has stated that, "Blowfish is unpatented, and will remain so in all countries. The algorithm is hereby placed in the public domain, and can be freely used by anyone."</string>
+    <string name="bfurl">https://en.wikipedia.org/wiki/Blowfish_(cipher)</string>
+    <string name="namedb">Please name a database entry</string>
+    <string name="saved">Saved Results:</string>
+    <string name="notext">No text supplied</string>
+    <string name="nokey">Please enter a key</string>
+    <string name="confdel">Are you sure you want to delete this database entry?</string>
+    <string name="nosaved">Looks like there is nothing to show</string>
+</resources>
